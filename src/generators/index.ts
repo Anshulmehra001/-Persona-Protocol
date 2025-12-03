@@ -1,0 +1,1 @@
+export { PersonaGenerator } from './PersonaGenerator';

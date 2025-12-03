@@ -1,0 +1,170 @@
+{
+  "walletAddress": "0x9c5083dd4838E120Dbeac44C052179692Aa5dAC5",
+  "transactions": [
+    {
+      "hash": "0xnft1111111111111111111",
+      "timestamp": "2024-01-05T10:30:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "Bored Ape Yacht Club",
+        "tokenId": "8547",
+        "price": "45 ETH"
+      }
+    },
+    {
+      "hash": "0xnft2222222222222222222",
+      "timestamp": "2024-01-12T14:20:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "Blur",
+        "collection": "Azuki",
+        "tokenId": "3421",
+        "price": "12 ETH"
+      }
+    },
+    {
+      "hash": "0xnft3333333333333333333",
+      "timestamp": "2024-02-03T09:15:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "Pudgy Penguins",
+        "tokenId": "6789",
+        "price": "8 ETH"
+      }
+    },
+    {
+      "hash": "0xnft4444444444444444444",
+      "timestamp": "2024-02-18T16:45:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "LooksRare",
+        "collection": "Doodles",
+        "tokenId": "2134",
+        "price": "6 ETH"
+      }
+    },
+    {
+      "hash": "0xnft5555555555555555555",
+      "timestamp": "2024-03-07T11:30:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "CloneX",
+        "tokenId": "9876",
+        "price": "15 ETH"
+      }
+    },
+    {
+      "hash": "0xnft6666666666666666666",
+      "timestamp": "2024-03-22T13:00:00Z",
+      "type": "token_hold",
+      "details": {
+        "token": "ETH",
+        "amount": "25.0",
+        "durationDays": 254,
+        "isBlueChip": true
+      }
+    },
+    {
+      "hash": "0xnft7777777777777777777",
+      "timestamp": "2024-04-10T08:45:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "Blur",
+        "collection": "Moonbirds",
+        "tokenId": "4567",
+        "price": "10 ETH"
+      }
+    },
+    {
+      "hash": "0xnft8888888888888888888",
+      "timestamp": "2024-05-15T15:20:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "Art Blocks Curated",
+        "tokenId": "1234",
+        "price": "20 ETH"
+      }
+    },
+    {
+      "hash": "0xnft9999999999999999999",
+      "timestamp": "2024-06-08T10:00:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "Foundation",
+        "collection": "Digital Art Masters",
+        "tokenId": "567",
+        "price": "18 ETH"
+      }
+    },
+    {
+      "hash": "0xnftaaaaaaaaaaaaaaaaaaa",
+      "timestamp": "2024-07-12T12:30:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "CryptoPunks",
+        "tokenId": "7890",
+        "price": "95 ETH"
+      }
+    },
+    {
+      "hash": "0xnftbbbbbbbbbbbbbbbbbb",
+      "timestamp": "2024-08-05T14:15:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "Blur",
+        "collection": "Milady",
+        "tokenId": "3456",
+        "price": "7 ETH"
+      }
+    },
+    {
+      "hash": "0xnftcccccccccccccccccc",
+      "timestamp": "2024-09-20T09:30:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "Bored Ape Yacht Club",
+        "tokenId": "9123",
+        "price": "42 ETH"
+      }
+    },
+    {
+      "hash": "0xnftdddddddddddddddddd",
+      "timestamp": "2024-10-15T16:00:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "SuperRare",
+        "collection": "Contemporary Digital",
+        "tokenId": "789",
+        "price": "25 ETH"
+      }
+    },
+    {
+      "hash": "0xnfteeeeeeeeeeeeeeeeee",
+      "timestamp": "2024-11-08T11:45:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "OpenSea",
+        "collection": "Azuki",
+        "tokenId": "5678",
+        "price": "11 ETH"
+      }
+    },
+    {
+      "hash": "0xnftffffffffffffffffffffff",
+      "timestamp": "2024-11-25T13:20:00Z",
+      "type": "nft_mint",
+      "details": {
+        "protocol": "Blur",
+        "collection": "Pudgy Penguins",
+        "tokenId": "8901",
+        "price": "9 ETH"
+      }
+    }
+  ]
+}

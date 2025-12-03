@@ -1,0 +1,154 @@
+{
+  "walletAddress": "0x8f3Cf7ad23Cd3CaDbD9735AFf958023239c6A063",
+  "transactions": [
+    {
+      "hash": "0x1111111111111111111111",
+      "timestamp": "2023-01-15T10:00:00Z",
+      "type": "token_hold",
+      "details": {
+        "token": "ETH",
+        "amount": "10.5",
+        "durationDays": 680,
+        "isBlueChip": true
+      }
+    },
+    {
+      "hash": "0x2222222222222222222222",
+      "timestamp": "2023-02-20T14:30:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Lido",
+        "token": "ETH",
+        "amount": "8.0",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0x3333333333333333333333",
+      "timestamp": "2023-03-10T09:15:00Z",
+      "type": "token_hold",
+      "details": {
+        "token": "WBTC",
+        "amount": "0.5",
+        "durationDays": 620,
+        "isBlueChip": true
+      }
+    },
+    {
+      "hash": "0x4444444444444444444444",
+      "timestamp": "2023-04-05T16:45:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Aave",
+        "token": "USDC",
+        "amount": "25000",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0x5555555555555555555555",
+      "timestamp": "2023-06-12T11:20:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Lido",
+        "proposalId": "LIP-15",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0x6666666666666666666666",
+      "timestamp": "2023-08-20T13:00:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Lido",
+        "token": "ETH",
+        "amount": "5.0",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0x7777777777777777777777",
+      "timestamp": "2023-09-15T10:30:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Aave",
+        "proposalId": "AIP-42",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0x8888888888888888888888",
+      "timestamp": "2023-11-01T15:45:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Aave",
+        "token": "DAI",
+        "amount": "15000",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0x9999999999999999999999",
+      "timestamp": "2024-01-10T09:00:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Lido",
+        "proposalId": "LIP-22",
+        "vote": "no"
+      }
+    },
+    {
+      "hash": "0xaaaaaaaaaaaaaaaaaaaaaa",
+      "timestamp": "2024-03-15T14:20:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Lido",
+        "token": "ETH",
+        "amount": "3.5",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0xbbbbbbbbbbbbbbbbbbbbbb",
+      "timestamp": "2024-05-20T11:30:00Z",
+      "type": "token_hold",
+      "details": {
+        "token": "ETH",
+        "amount": "12.0",
+        "durationDays": 195,
+        "isBlueChip": true
+      }
+    },
+    {
+      "hash": "0xcccccccccccccccccccccc",
+      "timestamp": "2024-07-08T16:00:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Aave",
+        "proposalId": "AIP-58",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0xdddddddddddddddddddddd",
+      "timestamp": "2024-09-12T10:15:00Z",
+      "type": "stake",
+      "details": {
+        "protocol": "Aave",
+        "token": "USDC",
+        "amount": "30000",
+        "isEstablished": true
+      }
+    },
+    {
+      "hash": "0xeeeeeeeeeeeeeeeeeeeeee",
+      "timestamp": "2024-11-01T13:45:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Lido",
+        "proposalId": "LIP-28",
+        "vote": "yes"
+      }
+    }
+  ]
+}

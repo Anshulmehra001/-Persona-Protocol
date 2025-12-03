@@ -1,0 +1,198 @@
+{
+  "walletAddress": "0x7a250d5630B4cF539739dF2C5dAcb4c659F2488D",
+  "transactions": [
+    {
+      "hash": "0xpro1111111111111111111",
+      "timestamp": "2024-01-08T10:00:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "ETH",
+        "token2": "USDC",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xpro2222222222222222222",
+      "timestamp": "2024-01-22T14:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "USDC",
+        "tokenOut": "DAI",
+        "amountIn": "5000"
+      }
+    },
+    {
+      "hash": "0xpro3333333333333333333",
+      "timestamp": "2024-02-10T09:15:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "WBTC",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xpro4444444444444444444",
+      "timestamp": "2024-02-28T16:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ETH",
+        "tokenOut": "USDT",
+        "amountIn": "3.5"
+      }
+    },
+    {
+      "hash": "0xpro5555555555555555555",
+      "timestamp": "2024-03-15T11:20:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Uniswap",
+        "proposalId": "UNI-12",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0xpro6666666666666666666",
+      "timestamp": "2024-04-02T13:00:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "UNI",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xpro7777777777777777777",
+      "timestamp": "2024-04-20T08:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "DAI",
+        "tokenOut": "USDC",
+        "amountIn": "8000"
+      }
+    },
+    {
+      "hash": "0xpro8888888888888888888",
+      "timestamp": "2024-05-08T15:20:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Uniswap",
+        "proposalId": "UNI-15",
+        "vote": "no"
+      }
+    },
+    {
+      "hash": "0xpro9999999999999999999",
+      "timestamp": "2024-05-25T10:00:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "LINK",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xproaaaaaaaaaaaaaaaaaaa",
+      "timestamp": "2024-06-12T12:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "USDT",
+        "tokenOut": "USDC",
+        "amountIn": "10000"
+      }
+    },
+    {
+      "hash": "0xprobbbbbbbbbbbbbbbbbb",
+      "timestamp": "2024-07-01T14:15:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Uniswap",
+        "proposalId": "UNI-18",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0xprocccccccccccccccccc",
+      "timestamp": "2024-07-20T09:30:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "AAVE",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xprodddddddddddddddddd",
+      "timestamp": "2024-08-10T16:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ETH",
+        "tokenOut": "UNI",
+        "amountIn": "5.0"
+      }
+    },
+    {
+      "hash": "0xproeeeeeeeeeeeeeeeeee",
+      "timestamp": "2024-09-05T11:45:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Uniswap",
+        "proposalId": "UNI-21",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0xproffffffffffffffffffffff",
+      "timestamp": "2024-09-28T13:20:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "MKR",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    },
+    {
+      "hash": "0xpro0000000000000000000",
+      "timestamp": "2024-10-15T10:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "USDC",
+        "tokenOut": "ETH",
+        "amountIn": "12000"
+      }
+    },
+    {
+      "hash": "0xpro1111111111111111112",
+      "timestamp": "2024-11-02T15:00:00Z",
+      "type": "governance_vote",
+      "details": {
+        "protocol": "Uniswap",
+        "proposalId": "UNI-24",
+        "vote": "yes"
+      }
+    },
+    {
+      "hash": "0xpro2222222222222222223",
+      "timestamp": "2024-11-20T12:15:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Uniswap",
+        "token1": "CRV",
+        "token2": "ETH",
+        "isVolatile": false
+      }
+    }
+  ]
+}

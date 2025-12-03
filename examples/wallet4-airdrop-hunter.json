@@ -1,0 +1,191 @@
+{
+  "walletAddress": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+  "transactions": [
+    {
+      "hash": "0xair1111111111111111111",
+      "timestamp": "2024-01-10T10:00:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Arbitrum",
+        "token": "ARB",
+        "amount": "2500"
+      }
+    },
+    {
+      "hash": "0xair1111111111111111112",
+      "timestamp": "2024-01-10T10:15:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ARB",
+        "tokenOut": "ETH",
+        "amountIn": "2500"
+      }
+    },
+    {
+      "hash": "0xair2222222222222222222",
+      "timestamp": "2024-02-05T14:30:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Optimism",
+        "token": "OP",
+        "amount": "1800"
+      }
+    },
+    {
+      "hash": "0xair2222222222222222223",
+      "timestamp": "2024-02-05T14:50:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "OP",
+        "tokenOut": "USDC",
+        "amountIn": "1800"
+      }
+    },
+    {
+      "hash": "0xair3333333333333333333",
+      "timestamp": "2024-03-12T09:20:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Blur",
+        "token": "BLUR",
+        "amount": "3200"
+      }
+    },
+    {
+      "hash": "0xair3333333333333333334",
+      "timestamp": "2024-03-12T09:35:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "BLUR",
+        "tokenOut": "ETH",
+        "amountIn": "3200"
+      }
+    },
+    {
+      "hash": "0xair4444444444444444444",
+      "timestamp": "2024-04-20T16:00:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Starknet",
+        "token": "STRK",
+        "amount": "4500"
+      }
+    },
+    {
+      "hash": "0xair4444444444444444445",
+      "timestamp": "2024-04-20T16:20:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "1inch",
+        "tokenIn": "STRK",
+        "tokenOut": "USDT",
+        "amountIn": "4500"
+      }
+    },
+    {
+      "hash": "0xair5555555555555555555",
+      "timestamp": "2024-05-15T11:45:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Jupiter",
+        "token": "JUP",
+        "amount": "5000"
+      }
+    },
+    {
+      "hash": "0xair5555555555555555556",
+      "timestamp": "2024-05-15T12:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Raydium",
+        "tokenIn": "JUP",
+        "tokenOut": "SOL",
+        "amountIn": "5000"
+      }
+    },
+    {
+      "hash": "0xair6666666666666666666",
+      "timestamp": "2024-06-22T13:30:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "Wormhole",
+        "token": "W",
+        "amount": "3800"
+      }
+    },
+    {
+      "hash": "0xair6666666666666666667",
+      "timestamp": "2024-06-22T13:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "W",
+        "tokenOut": "ETH",
+        "amountIn": "3800"
+      }
+    },
+    {
+      "hash": "0xair7777777777777777777",
+      "timestamp": "2024-07-18T10:15:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "ZkSync",
+        "is_new_protocol": true,
+        "tokenIn": "ETH",
+        "tokenOut": "USDC",
+        "amountIn": "0.5"
+      }
+    },
+    {
+      "hash": "0xair8888888888888888888",
+      "timestamp": "2024-08-25T15:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Scroll",
+        "is_new_protocol": true,
+        "tokenIn": "ETH",
+        "tokenOut": "USDT",
+        "amountIn": "0.3"
+      }
+    },
+    {
+      "hash": "0xair9999999999999999999",
+      "timestamp": "2024-09-10T12:20:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Base",
+        "is_new_protocol": true,
+        "tokenIn": "ETH",
+        "tokenOut": "USDC",
+        "amountIn": "0.4"
+      }
+    },
+    {
+      "hash": "0xairaaaaaaaaaaaaaaaaaaa",
+      "timestamp": "2024-10-05T14:40:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Linea",
+        "is_new_protocol": true,
+        "tokenIn": "ETH",
+        "tokenOut": "DAI",
+        "amountIn": "0.6"
+      }
+    },
+    {
+      "hash": "0xairbbbbbbbbbbbbbbbbbb",
+      "timestamp": "2024-11-12T09:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Blast",
+        "is_new_protocol": true,
+        "tokenIn": "ETH",
+        "tokenOut": "USDC",
+        "amountIn": "0.5"
+      }
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "walletAddress": "0x742d35Cc6634C0532925a3b844Bc9e7595f0bEb",
+  "transactions": [
+    {
+      "hash": "0x1a2b3c4d5e6f7g8h9i0j",
+      "timestamp": "2024-11-15T10:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ETH",
+        "tokenOut": "PEPE",
+        "amountIn": "2.5"
+      }
+    },
+    {
+      "hash": "0x2b3c4d5e6f7g8h9i0j1k",
+      "timestamp": "2024-11-16T14:20:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "SushiSwap",
+        "token1": "SHIB",
+        "token2": "DOGE",
+        "isVolatile": true
+      }
+    },
+    {
+      "hash": "0x3c4d5e6f7g8h9i0j1k2l",
+      "timestamp": "2024-11-17T09:15:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "PancakeSwap",
+        "tokenIn": "BNB",
+        "tokenOut": "SAFEMOON",
+        "amountIn": "5.0"
+      }
+    },
+    {
+      "hash": "0x4d5e6f7g8h9i0j1k2l3m",
+      "timestamp": "2024-11-18T16:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "USDC",
+        "tokenOut": "WOJAK",
+        "amountIn": "1000"
+      }
+    },
+    {
+      "hash": "0x5e6f7g8h9i0j1k2l3m4n",
+      "timestamp": "2024-11-19T11:30:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "Curve",
+        "token1": "PEPE",
+        "token2": "ETH",
+        "isVolatile": true
+      }
+    },
+    {
+      "hash": "0x6f7g8h9i0j1k2l3m4n5o",
+      "timestamp": "2024-11-20T13:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "1inch",
+        "tokenIn": "ETH",
+        "tokenOut": "FLOKI",
+        "amountIn": "1.2"
+      }
+    },
+    {
+      "hash": "0x7g8h9i0j1k2l3m4n5o6p",
+      "timestamp": "2024-11-21T08:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "is_new_protocol": false,
+        "tokenIn": "USDT",
+        "tokenOut": "BONK",
+        "amountIn": "500"
+      }
+    },
+    {
+      "hash": "0x8h9i0j1k2l3m4n5o6p7q",
+      "timestamp": "2024-11-22T15:20:00Z",
+      "type": "receive_airdrop",
+      "details": {
+        "protocol": "ArbitrumDAO",
+        "token": "ARB",
+        "amount": "1250"
+      }
+    },
+    {
+      "hash": "0x9i0j1k2l3m4n5o6p7q8r",
+      "timestamp": "2024-11-22T15:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ARB",
+        "tokenOut": "ETH",
+        "amountIn": "1250"
+      }
+    },
+    {
+      "hash": "0xa0j1k2l3m4n5o6p7q8r9s",
+      "timestamp": "2024-11-23T10:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ETH",
+        "tokenOut": "TURBO",
+        "amountIn": "3.0"
+      }
+    },
+    {
+      "hash": "0xb1k2l3m4n5o6p7q8r9s0t",
+      "timestamp": "2024-11-24T12:30:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "TURBO",
+        "tokenOut": "USDC",
+        "amountIn": "50000"
+      }
+    },
+    {
+      "hash": "0xc2l3m4n5o6p7q8r9s0t1u",
+      "timestamp": "2024-11-25T14:15:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "USDC",
+        "tokenOut": "MEME",
+        "amountIn": "800"
+      }
+    },
+    {
+      "hash": "0xd3m4n5o6p7q8r9s0t1u2v",
+      "timestamp": "2024-11-26T09:30:00Z",
+      "type": "provide_liquidity",
+      "details": {
+        "protocol": "SushiSwap",
+        "token1": "MEME",
+        "token2": "ETH",
+        "isVolatile": true
+      }
+    },
+    {
+      "hash": "0xe4n5o6p7q8r9s0t1u2v3w",
+      "timestamp": "2024-11-27T16:00:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "ETH",
+        "tokenOut": "PEPE",
+        "amountIn": "1.8"
+      }
+    },
+    {
+      "hash": "0xf5o6p7q8r9s0t1u2v3w4x",
+      "timestamp": "2024-11-28T11:45:00Z",
+      "type": "swap",
+      "details": {
+        "protocol": "Uniswap",
+        "tokenIn": "PEPE",
+        "tokenOut": "USDC",
+        "amountIn": "1000000"
+      }
+    }
+  ]
+}

@@ -1,3 +1,10 @@
+# 🎭 Persona Protocol
+
+[![Tests](https://img.shields.io/badge/tests-49%20passing-brightgreen)](https://github.com/Anshulmehra001/-Persona-Protocol)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.3-blue)](https://www.typescriptlang.org/)
+[![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+[![AI Generated](https://img.shields.io/badge/AI%20Generated-100%25-purple)](AI_DEVELOPMENT_LOG.md)
+
 # Persona Protocol
 
 Web3 wallet analysis system that generates comprehensive, data-driven persona profiles from blockchain transaction history.

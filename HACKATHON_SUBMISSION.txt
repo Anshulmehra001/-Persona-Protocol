@@ -6,7 +6,7 @@ PERSONA PROTOCOL - HACKATHON SUBMISSION
 -----------------
 GitHub Repository: https://github.com/Anshulmehra001/-Persona-Protocol
 AI Development Log: https://github.com/Anshulmehra001/-Persona-Protocol/blob/main/AI_DEVELOPMENT_LOG.md
-Demo Video: [YOUR VIDEO LINK HERE]
+Demo Video: https://youtu.be/9O9cAF2wR20
 
 
 📝 PROJECT DESCRIPTION (147 words)
@@ -51,7 +51,7 @@ Vision: Building tools that make Web3 data accessible and actionable for everyon
 [✓] Testing in production instructions
 [✓] Project description (147 words)
 [✓] Team info (143 words)
-[✓] Demo video (5 minutes) 
+[✓] Demo video 
 
 
 🚀 QUICK START FOR JUDGES

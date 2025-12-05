@@ -9,6 +9,10 @@
 
 Web3 wallet analysis system that generates comprehensive, data-driven persona profiles from blockchain transaction history.
 
+## 🎬 Demo Video
+
+**Watch the full demo**: [https://youtu.be/9O9cAF2wR20](https://youtu.be/9O9cAF2wR20)
+
 ## Project Structure
 
 ```

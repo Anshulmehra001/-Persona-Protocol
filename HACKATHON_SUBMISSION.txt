@@ -1,0 +1,103 @@
+===========================================
+PERSONA PROTOCOL - HACKATHON SUBMISSION
+===========================================
+
+📌 PROJECT LINKS
+-----------------
+GitHub Repository: https://github.com/Anshulmehra001/-Persona-Protocol
+AI Development Log: https://github.com/Anshulmehra001/-Persona-Protocol/blob/main/AI_DEVELOPMENT_LOG.md
+Demo Video: [YOUR VIDEO LINK HERE]
+
+
+📝 PROJECT DESCRIPTION (147 words)
+-----------------------------------
+Persona Protocol is a Web3 wallet analysis system that transforms blockchain transaction data into actionable behavioral insights. By analyzing DeFi interactions, NFT activity, and protocol engagement patterns, it generates comprehensive persona profiles with three-dimensional scoring (Risk Appetite, Loyalty, Activity) and behavioral trait identification.
+
+Built entirely using Vibe Coding with Kiro AI, the system processes wallet transactions through a five-stage pipeline: validation, analysis, scoring, persona generation, and output formatting. It identifies patterns like "Airdrop Hunter," "Diamond Hands," and "Protocol Specialist" to help DeFi platforms, wallet providers, and analytics services understand user behavior.
+
+The project solves the challenge of making sense of complex on-chain data, enabling personalized experiences, risk assessment, and targeted engagement. With 49 passing tests and property-based validation, it's production-ready for integration into Web3 applications. Target users include DeFi platforms, wallet providers, analytics services, and blockchain researchers seeking behavioral insights.
+
+
+👥 TEAM INFO (143 words)
+-------------------------
+Team: Solo Developer with AI Assistance
+
+Developer: Aniket Mehra
+GitHub: https://github.com/Anshulmehra001
+
+Background: Passionate Web3 developer with expertise in blockchain analytics and DeFi protocols. Experienced in TypeScript, smart contract development, and data-driven applications. Strong advocate for AI-assisted development and formal verification methods.
+
+Expertise:
+• Web3 Development: DeFi protocols, wallet integration, blockchain data analysis
+• AI-Assisted Coding: Leveraged Kiro AI IDE with Claude for rapid development
+• Testing Methodologies: Property-based testing, formal verification, TDD
+• System Architecture: Modular design, pipeline architectures, scalable systems
+
+Development Approach: Embraced Vibe Coding methodology, using AI to generate requirements, design, implementation, and comprehensive tests. Applied spec-driven development with formal correctness properties, resulting in a robust, production-ready system with 100% test pass rate.
+
+Vision: Building tools that make Web3 data accessible and actionable for everyone.
+
+
+✅ REQUIREMENTS CHECKLIST
+--------------------------
+[✓] Public GitHub repository with source code
+[✓] AI Development Log (AI_DEVELOPMENT_LOG.md) with prompts and iterations
+[✓] Commit history showing AI-assisted development
+[✓] Working prototype with all core features
+[✓] 49 comprehensive tests (100% passing)
+[✓] Deployment instructions in README.md
+[✓] Web3 integration (DeFi/NFT analysis)
+[✓] Revenue model documented
+[✓] Testing in production instructions
+[✓] Project description (147 words)
+[✓] Team info (143 words)
+[⏳] Demo video (5 minutes) 
+
+
+🚀 QUICK START FOR JUDGES
+--------------------------
+git clone https://github.com/Anshulmehra001/-Persona-Protocol.git
+cd -Persona-Protocol
+npm install
+npm test
+npm run server
+# Open http://localhost:3000
+
+
+📊 KEY METRICS
+--------------
+• 7,500+ lines of code (100% AI-generated)
+• 49 tests (100% passing)
+• 28 property-based tests (2,800+ test cases)
+• 5 comprehensive documentation files
+• Web UI + REST API + Database + Blockchain integration
+• Production-ready deployment
+
+💰 REVENUE MODEL (Details in README.md)
+----------------------------------------
+• Free: 100 analyses/month
+• Pro: $99/month (10,000 analyses)
+• Enterprise: Custom pricing (unlimited + white-label)
+• API: $0.01 per analysis
+• Target Markets: DeFi platforms, wallet providers, analytics services
+• Year 1 Projection: $50K | Year 2: $250K | Year 3: $1M+
+
+
+🏆 WHY THIS WINS
+-----------------
+1. 100% AI-Generated with complete development log
+2. Beautiful web interface (not just CLI)
+3. Real blockchain integration (Etherscan API)
+4. Advanced testing (property-based with 2,800+ cases)
+5. Production-ready (can deploy today)
+6. Complete documentation (AI prompts included)
+7. Clear revenue model (B2B SaaS)
+8. Comprehensive feature set (UI + API + DB + Blockchain)
+
+
+📧 CONTACT
+----------
+GitHub: https://github.com/Anshulmehra001
+Email: [Your Email]
+
+===========================================

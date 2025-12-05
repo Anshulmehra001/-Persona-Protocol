@@ -570,8 +570,45 @@
         }
 
         function loadExample(wallet) {
-            // This would load from your example files
-            showError('Example loading not implemented yet. Use blockchain analysis instead!');
+            const examples = {
+                'wallet1': {
+                    "walletAddress": "0x1234567890abcdef1234567890abcdef12345678",
+                    "transactions": [
+                        {"hash": "0xabc123", "timestamp": "2024-01-15T10:30:00.000Z", "type": "swap", "details": { "protocol": "Uniswap", "token_in": "ETH", "token_out": "USDC" }},
+                        {"hash": "0xdef456", "timestamp": "2024-01-16T14:20:00.000Z", "type": "swap", "details": { "protocol": "Uniswap", "token_in": "USDC", "token_out": "LINK" }},
+                        {"hash": "0xghi789", "timestamp": "2024-01-17T09:15:00.000Z", "type": "provide_liquidity", "details": { "protocol": "Uniswap", "token1": "ETH", "token2": "USDC", "is_volatile": true }},
+                        {"hash": "0xjkl012", "timestamp": "2024-01-18T16:45:00.000Z", "type": "receive_airdrop", "details": { "protocol": "NewProtocol", "token": "NEW", "amount": "1000" }},
+                        {"hash": "0xmno345", "timestamp": "2024-01-19T11:30:00.000Z", "type": "swap", "details": { "protocol": "Uniswap", "token_in": "NEW", "token_out": "ETH" }}
+                    ]
+                },
+                'wallet2': {
+                    "walletAddress": "0xabcdef1234567890abcdef1234567890abcdef12",
+                    "transactions": [
+                        {"hash": "0xpqr678", "timestamp": "2023-06-01T08:00:00.000Z", "type": "token_hold", "details": { "protocol": "Ethereum", "token": "ETH", "duration_days": 365, "is_blue_chip": true }},
+                        {"hash": "0xstu901", "timestamp": "2023-07-15T10:30:00.000Z", "type": "stake", "details": { "protocol": "Lido", "token": "ETH", "amount": "5", "is_stable": true }},
+                        {"hash": "0xvwx234", "timestamp": "2023-09-20T14:20:00.000Z", "type": "governance_vote", "details": { "protocol": "Lido", "proposal_id": "LIP-001" }},
+                        {"hash": "0xyz567", "timestamp": "2024-01-10T09:00:00.000Z", "type": "stake", "details": { "protocol": "Lido", "token": "ETH", "amount": "2", "is_stable": true }}
+                    ]
+                },
+                'wallet3': {
+                    "walletAddress": "0x9876543210fedcba9876543210fedcba98765432",
+                    "transactions": [
+                        {"hash": "0xnft001", "timestamp": "2024-01-05T12:00:00.000Z", "type": "nft_mint", "details": { "protocol": "OpenSea", "collection": "CoolApes", "token_id": "1234" }},
+                        {"hash": "0xnft002", "timestamp": "2024-01-08T15:30:00.000Z", "type": "nft_mint", "details": { "protocol": "OpenSea", "collection": "CryptoKitties", "token_id": "5678" }},
+                        {"hash": "0xnft003", "timestamp": "2024-01-12T10:45:00.000Z", "type": "nft_mint", "details": { "protocol": "Rarible", "collection": "DigitalArt", "token_id": "9012" }},
+                        {"hash": "0xnft004", "timestamp": "2024-01-15T14:20:00.000Z", "type": "nft_mint", "details": { "protocol": "OpenSea", "collection": "Punks", "token_id": "3456" }},
+                        {"hash": "0xswp001", "timestamp": "2024-01-16T09:00:00.000Z", "type": "swap", "details": { "protocol": "Uniswap", "token_in": "ETH", "token_out": "USDC" }}
+                    ]
+                }
+            };
+
+            const data = examples[wallet];
+            if (data) {
+                document.getElementById('json-input').value = JSON.stringify(data, null, 2);
+                hideError();
+            } else {
+                showError('Example not found');
+            }
         }
 
         function displayResult(data) {

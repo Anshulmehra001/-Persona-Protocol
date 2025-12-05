@@ -1,16 +1,21 @@
 import express, { Request, Response } from 'express';
 import cors from 'cors';
 import path from 'path';
-import { analyzeWallet } from './index';
-import { BlockchainService } from './services/BlockchainService';
-import { DatabaseService } from './services/DatabaseService';
+import { fileURLToPath } from 'url';
+import { analyzeWallet } from './index.js';
+import { BlockchainService } from './services/BlockchainService.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // Initialize services
 const blockchainService = new BlockchainService();
-const dbService = new DatabaseService();
+
+// In-memory cache (simple replacement for database)
+const cache = new Map<string, any>();
 
 // Middleware
 app.use(cors());
@@ -38,7 +43,7 @@ app.post('/api/analyze', async (req: Request, res: Response) => {
     }
 
     // Check cache first
-    const cached = dbService.getAnalysis(walletAddress);
+    const cached = cache.get(walletAddress);
     if (cached) {
       return res.json({ 
         ...cached, 
@@ -51,8 +56,8 @@ app.post('/api/analyze', async (req: Request, res: Response) => {
     const result = analyzeWallet(JSON.stringify(req.body));
     const persona = JSON.parse(result);
 
-    // Save to database
-    dbService.saveAnalysis(persona);
+    // Save to cache
+    cache.set(walletAddress, persona);
 
     res.json({ ...persona, cached: false });
   } catch (error) {
@@ -82,7 +87,7 @@ app.post('/api/analyze/blockchain', async (req: Request, res: Response) => {
     }
 
     // Check cache first
-    const cached = dbService.getAnalysis(walletAddress);
+    const cached = cache.get(walletAddress);
     if (cached) {
       return res.json({ 
         ...cached, 
@@ -108,8 +113,8 @@ app.post('/api/analyze/blockchain', async (req: Request, res: Response) => {
     const result = analyzeWallet(JSON.stringify(walletData));
     const persona = JSON.parse(result);
 
-    // Save to database
-    dbService.saveAnalysis(persona);
+    // Save to cache
+    cache.set(walletAddress, persona);
 
     // Get balance
     const balance = await blockchainService.fetchBalance(walletAddress);
@@ -133,7 +138,7 @@ app.get('/api/analysis/:walletAddress', (req: Request, res: Response) => {
   try {
     const { walletAddress } = req.params;
 
-    const analysis = dbService.getAnalysis(walletAddress);
+    const analysis = cache.get(walletAddress);
 
     if (!analysis) {
       return res.status(404).json({ 
@@ -153,8 +158,7 @@ app.get('/api/analysis/:walletAddress', (req: Request, res: Response) => {
 // Get all analyses
 app.get('/api/analyses', (req: Request, res: Response) => {
   try {
-    const limit = parseInt(req.query.limit as string) || 100;
-    const analyses = dbService.getAllAnalyses(limit);
+    const analyses = Array.from(cache.values());
 
     res.json({
       count: analyses.length,
@@ -171,8 +175,27 @@ app.get('/api/analyses', (req: Request, res: Response) => {
 // Get statistics
 app.get('/api/statistics', (req: Request, res: Response) => {
   try {
-    const stats = dbService.getStatistics();
-    res.json(stats);
+    const analyses = Array.from(cache.values());
+    const totalAnalyses = analyses.length;
+    
+    const avgRisk = analyses.length > 0 
+      ? Math.round(analyses.reduce((sum: number, a: any) => sum + a.scores.riskAppetite, 0) / analyses.length)
+      : 0;
+    const avgLoyalty = analyses.length > 0
+      ? Math.round(analyses.reduce((sum: number, a: any) => sum + a.scores.loyalty, 0) / analyses.length)
+      : 0;
+    const avgActivity = analyses.length > 0
+      ? Math.round(analyses.reduce((sum: number, a: any) => sum + a.scores.activity, 0) / analyses.length)
+      : 0;
+
+    res.json({
+      totalAnalyses,
+      averageScores: {
+        riskAppetite: avgRisk,
+        loyalty: avgLoyalty,
+        activity: avgActivity
+      }
+    });
   } catch (error) {
     console.error('Statistics error:', error);
     res.status(500).json({ 
@@ -214,13 +237,11 @@ app.listen(PORT, () => {
 
 // Graceful shutdown
 process.on('SIGTERM', () => {
-  console.log('SIGTERM received, closing database...');
-  dbService.close();
+  console.log('SIGTERM received, shutting down...');
   process.exit(0);
 });
 
 process.on('SIGINT', () => {
-  console.log('SIGINT received, closing database...');
-  dbService.close();
+  console.log('SIGINT received, shutting down...');
   process.exit(0);
 });

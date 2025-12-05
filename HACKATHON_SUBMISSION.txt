@@ -51,7 +51,7 @@ Vision: Building tools that make Web3 data accessible and actionable for everyon
 [✓] Testing in production instructions
 [✓] Project description (147 words)
 [✓] Team info (143 words)
-[⏳] Demo video (5 minutes) 
+[✓] Demo video (5 minutes) 
 
 
 🚀 QUICK START FOR JUDGES
@@ -83,21 +83,11 @@ npm run server
 • Year 1 Projection: $50K | Year 2: $250K | Year 3: $1M+
 
 
-🏆 WHY THIS WINS
------------------
-1. 100% AI-Generated with complete development log
-2. Beautiful web interface (not just CLI)
-3. Real blockchain integration (Etherscan API)
-4. Advanced testing (property-based with 2,800+ cases)
-5. Production-ready (can deploy today)
-6. Complete documentation (AI prompts included)
-7. Clear revenue model (B2B SaaS)
-8. Comprehensive feature set (UI + API + DB + Blockchain)
 
 
 📧 CONTACT
 ----------
 GitHub: https://github.com/Anshulmehra001
-Email: [Your Email]
+Email: aniketmehra715@gmail.com
 
 ===========================================
